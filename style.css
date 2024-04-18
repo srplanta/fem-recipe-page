@@ -131,7 +131,7 @@ li::marker {
 }
 
 
-.row{
+.row {
     line-height: 2;
     border-bottom: 1px solid var(--dark-charcoal);
 }
@@ -148,6 +148,7 @@ li::marker {
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .attribution {
