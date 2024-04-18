@@ -1,0 +1,122 @@
+@font-face {
+    font-family: young-serif-regular;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-regular;
+    src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-medium;
+    src: url(./assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: outfit-bold;
+    src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+:root {
+    --nut-meg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --egg-shell: hsl(30, 54%, 90%);
+    --ligh-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--egg-shell);
+}
+
+/* ---------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: var(--white);
+    margin: 2em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.header {
+    width: 100%;
+}
+
+.header-image {
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* ---------------------------- */
+.contents {
+    width: 100%;
+}
+
+.recipe-heading {
+    font-family: young-serif-regular;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.intro-text {
+    font-family: outfit-regular;
+    color: var(--wenge-brown);
+    font-size: 1.5rem;
+}
+
+.preparation-time {
+    background-color: var(--rose-white);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-family: outfit-regular;
+}
+
+.preparation-heading {
+    color: var(--nut-meg);
+}
+
+.list-item-heading {
+    font-family: outfit-bold;
+}
+
+.list-item-text {
+    /* empty body */
+}
+
+.ingredients {
+    font-family: outfit-regular;
+}
+.l2-heading{
+    font-family: young-serif-regular;
+    font-size: 1.7rem;
+    color: var(--dark-raspberry);
+}
+.instructions {}
+
+.nutrition {}
+
+.body-wide-table {}
+
+.brown-text {}
+
+/* ---------------------------- */
+.footer {}
+
+.attribution {}
+
+/* ---------------------------- */
