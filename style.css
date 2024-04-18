@@ -127,17 +127,13 @@ li::marker {
 
 .body-wide-table {
     width: 100%;
-    /* border: 1px solid black; */
+    /* border-bottom: 1px solid var(--dark-charcoal); */
 }
 
-/* .row { */
-/* display: flex;
-    justify-content: space-between; */
-/* width: 100%; */
-/* } */
+
 .row{
     line-height: 2;
-    border: 1px solid black;
+    border-bottom: 1px solid var(--dark-charcoal);
 }
 
 .brown-text {
@@ -147,8 +143,15 @@ li::marker {
 }
 
 /* ---------------------------- */
-.footer {}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 
-.attribution {}
+.attribution {
+    font-family: outfit-regular;
+}
 
 /* ---------------------------- */
