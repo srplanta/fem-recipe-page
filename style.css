@@ -95,24 +95,56 @@ body {
 }
 
 .list-item-text {
-    /* empty body */
+    line-height: 2;
+}
+
+li::marker {
+    color: var(--dark-raspberry);
+    font-weight: 800;
+    font-family: outfit-bold;
 }
 
 .ingredients {
     font-family: outfit-regular;
 }
-.l2-heading{
+
+.l2-heading {
     font-family: young-serif-regular;
     font-size: 1.7rem;
     color: var(--dark-raspberry);
 }
-.instructions {}
 
-.nutrition {}
+.instructions {
+    font-family: outfit-regular;
+}
 
-.body-wide-table {}
+.nutrition {
+    font-family: outfit-regular;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 100%; */
+}
 
-.brown-text {}
+.body-wide-table {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+/* .row { */
+/* display: flex;
+    justify-content: space-between; */
+/* width: 100%; */
+/* } */
+.row{
+    line-height: 2;
+    border: 1px solid black;
+}
+
+.brown-text {
+    font-family: outfit-regular;
+    font-weight: 800;
+    color: var(--dark-raspberry);
+}
 
 /* ---------------------------- */
 .footer {}
