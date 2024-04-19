@@ -165,7 +165,7 @@ li::marker {
 
 /* ---------------------------- */
 
-@media only screen and (max-width:900px) and (min-width:375px) {
+@media only screen and (max-width:720px) and (min-width:375px) {
 
     /* .main::before {
         content: "query fired";
