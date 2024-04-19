@@ -165,12 +165,12 @@ li::marker {
 
 /* ---------------------------- */
 
-@media only screen and (max-width:600px) and (min-width:375px) {
+@media only screen and (max-width:900px) and (min-width:375px) {
 
     /* .main::before {
         content: "query fired";
     } */
-    
+
 
     .main {
         width: 100%;
@@ -182,9 +182,11 @@ li::marker {
         width: 100%;
         border-radius: 0;
     }
+
     .contents {
         width: 80%;
     }
+
     .recipe-heading {
         font-family: young-serif-regular;
         font-size: 2.5rem;
